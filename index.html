@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="https://spotfinder.app/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>spotfinder</title>
+</head>
+
+<body>
+    <header id="head">
+        <img src="./images/logo.png" alt="">
+
+        <ul>
+            <li>Home</li>
+            <li>Features</li>
+            <li>Blog</li>
+            <li>Become A partner</li>
+        </ul>
+        <div class="login">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <input id="login" type="button" value="Login">
+            <input type="button" value="Register">
+        </div>
+
+    </header>
+
+
+    <section class="Parking bg-light mt-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+                    <h1 class="mt-5 text-center">Parking <span class="text-primary"> Simplified</span></h1>
+
+                    <p class="text-center mt-3">Easily Find a Parking Space now!</p>
+
+                    <form action="">
+                        <input type="text" placeholder="Your Location" id="location">
+                        <br>
+                        <select name="" id="dropdown">
+                            <option value="Select Vehicle Category">Select Yout Vehicle</option>
+                            <option value="Select Vehicle Category">Car</option>
+                            <option value="Select Vehicle Category">Event</option>
+                            <option value="Select Vehicle Category">Valet</option>
+                            <option value="Select Vehicle Category">Semi Truck</option>
+                        </select>
+                        <br>
+                        <span id="span">
+                            <input type="text" name="" class="checkin" placeholder="check-in">
+                            <input type="text" name="" class="checkin" placeholder="check-out">
+                        </span>
+                        <br>
+                        <button id="btn"> Search Parking Spaces</button>
+
+                    </form>
+
+                </div>
+
+
+                <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+
+                    <img src="https://spotfinder.app/static/media/screen1.648aee58f5669afbb362.png" class="p-5">
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section class="cars mt-5">
+        <div class="container">
+            <h1 class="text-center">We are everywhere!</h1>
+
+            <p class="text-center mt-3">Find a new home for your car.</p>
+
+
+            <div class="row ">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+
+                    <div class="card -5" style="width:400px">
+                        <img class="card-img-top" src="http://127.0.0.1:5500/img/cars.jpg" alt="Card image"
+                            style="width:100%">
+                        <h4 class="text-center mt-3">City parking</h4>
+                        <div class="card-body">
+
+
+                            <button class="btttn">Find a parking</button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+
+                    <div class="card " style="width:400px">
+                        <img class="card-img-top ms-5"
+                            src="https://spotfinder.s3.amazonaws.com/prod/parkingType/image-2-1669441399715-truck-ga56c42344_1920.jpg?AWSAccessKeyId=AKIA4YAR6RQXGID5IUNC&Expires=1707803502&Signature=1TZBnRofxci1GWoML8R%2FisQhbmE%3D"
+                            alt="Card image" style="width:100%">
+                        <h4 class="text-center mt-3">Semi Truck Par...</h4>
+                        <div class="card-body">
+
+
+                            <button class="btttn">Find a parking</button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+
+                    <div class="card " style="width:400px ;">
+                        <img class=" aacard-img-top ms-5" src="./images/sky.jpg" alt="Card image" style="width:100%  ">
+                        <h4 class="text-center mt-3">Airport Parking</h4>
+                        <div class="card-body">
+
+
+                            <button class="btttn"  >Find a parking</button>
+                           
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+
+    </section>
+
+    <section class="spot mt-5">
+
+        <div class="container">
+            <h1 class="hee ">Why Spot Finder?</h1>
+
+
+            <div>
+                <h5 class="text-center text-white my-5">We understand the pain for finding the right spot where your car
+                    feels home <br>
+                    Handicap friendly spots, diligent customer support, we aim to comfort you with <br>
+                    nearest parking spot!</h5>
+            </div>
+
+
+            <div class="row p-5">
+                <div class=" box col-sm-12 col-md-4 col-lg-4 col-12 ">
+                    <img src="./images/1.png" alt="">
+                    <h2 class="text-center ">it' fast</h2>
+                    <p>Our new app makes finding spots in not more than 3 steps. We're building the largest network of
+                        parking spots</p>
+
+
+
+                </div>
+
+                <div class=" box col-sm-12 col-md-4 col-lg-4 col-12">
+                    <img src="./images/2.png" alt="">
+
+                    <h2 class="text-center">it's easy</h2>
+                    <p>We aim to keep you hooked to our services with an experience excellence team!</p>
+                </div>
+
+
+                <div class=" box col-sm-12 col-md-4 col-lg-4 col-12">
+
+                    <img src="./images/3.png" alt="">
+                    <h2 class="text-center ">It's affordable</h2>
+                    <p>Find affordable spots and spend your days stress-free while your car is parked with us.</p>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+
+    <h1 class=" text-center mt-5">Airport Parking</h1>
+
+    <section class="4div">
+
+        <div class="row">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 mx-4">
+                <div class="colll">
+
+                    <img src="http://127.0.0.1:5500/img/daysin.jpg" alt="">
+                    <h4 class="text-center mt-3">Days Inn by Wyndh...</h4>
+                    <p class="text-center">Days Inn by Wyndham hotel</p>
+
+                    <button>Book Now</button>
+
+                </div>
+
+
+                <div class="colll">
+                    <img src="http://127.0.0.1:5500/img/daysin2.jpg" alt="">
+
+                    <h4 class="text-center mt-3">Days Inn by Wyndh...</h4>
+                    <p class="text-center">Da</p>
+
+                    <button>Book Now</button>
+
+
+                </div>
+
+
+                <div class="colll">
+                    <img src="http://127.0.0.1:5500/img/apartmant.png" alt="">
+
+
+                    <h4 class="text-center mt-3">Home2 Suites by Hilto...</h4>
+                    <p class="text-center">Th</p>
+
+                    <button>Book Now</button>
+
+
+                </div>
+
+
+                <div class="colll">
+                    <img src="http://127.0.0.1:5500/img/express.jpg" alt="">
+
+
+                    <h4 class="text-center mt-3">Holiday Inn Express...</h4>
+                    <p class="text-center">Holdiay Inn Express & Suites</p>
+
+                    <button>Book Now</button>
+
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+    </section>
+
+
+    <section class="section55">
+
+        <div class="section5">
+            <div class="feedback">
+                <div class="userstar">
+                    <div class="user">
+                        <div class="user"><img src="./images/DSCN0500 copy.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="star">
+                        <h2>Adil Raees</h2>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                </div>
+                <div class="article">
+                    We loved using SpotFinder. It was easy and simple for us. I am 20 years old and we liked how easy it
+                    was
+                    to do a booking. <br><span>Read More...</span>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <section class="section6 ">
+        <h1>Partner With Spot Finder</h1>
+        <p>Grow your business by listing your service with us.</p>
+        <button>Become a Partner</button>
+
+
+
+
+    </section>
+
+
+    <div class="container bg-light mt-5">
+        <h1 class="text-center mt-5">SUBCRIBE</h1>
+
+        <p class="text-center">Subscribe to our Spot finder & stay Updated</p>
+
+        <div class="email text-center">
+            <input type="email" placeholder="Enter Your Email"><button>Subscribe</button>
+        </div>
+
+
+
+    </div>
+
+
+    <hr id="hr">
+
+    <footer>
+        <div class="foot">
+            <div class="details">
+                <h2>About Us</h2>
+                <p>As Travelers and preplanners on a trip, we hate not being able to find parking on a reliable site. We
+                    decided to solve this by starting in house!
+
+                </p>
+            </div>
+            <div class="details">
+                <h2>Company</h2>
+                <p>Privacy Policy</p>
+                <p>Cancellation Policy</p>
+                <p>Terms and Conditions</p>
+            </div>
+            <div class="details">
+                <h2>Contact Info</h2>
+                <p><i class="fa-regular fa-envelope-open"></i> adilraees911@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +92 3078068476</p>
+                <p><i class="fa-solid fa-location-dot"></i> Saddar  Karachi Pakistan</p>
+                <p><i class="fa-solid fa-headphones"></i> Customer Support</p>
+            </div>
+            <div class="details">
+                <h2>Payment Accepted</h2>
+                <img src="https://spotfinder.app/static/media/poweredby.d44fe7a25f67dd33d88a.png" alt="">
+                <h2>Social</h2>
+                <div class="bar"><a href="https://web.facebook.com/adil.raees.96/"><i class="fa-brands fa-facebook"
+                            style="color: #0f188a;"></i></a>
+                    <a href="https://https://github.com/adilraees786"><i class="fa-brands fa-github bg-white"
+                            style="color:black;"></i></a>
+                    <a href="https://https://www.instagram.com/adilraees476/"><i class="fa-brands fa-instagram"
+                            style="color:#eb0187;"></i></a>
+                </div>
+
+            </div>
+
+        </div>
+        <h2 id="h2">
+            All rights reserved © 2024 - SpotFinder by Travel Life LLC • Made with Adil Raees
+           
+        </h2>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

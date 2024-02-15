@@ -1,0 +1,536 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+
+
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    position: sticky;
+    top: -0px;
+    background-color: white;
+    z-index: 2;
+}
+header img {
+    width: 170px;
+    height: 55px;
+}
+
+header ul {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+header li:hover {
+    cursor: pointer;
+    color: red;
+
+}
+
+.login {
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login input {
+    background: none;
+    border: 2px solid red;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+#login {
+    border: none;
+    background: none;
+    color: black;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#login:hover {
+    color: red;
+}
+
+.login i {
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+}
+
+#location {
+    margin-top: 10px;
+    width: 500px;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-left: 40px;
+    background-image: url(./img/location-dot-solid.svg);
+    background-repeat: no-repeat;
+    background-position: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 20px;
+    font-size: 16px;
+    color: red;
+    outline: none;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+#dropdown {
+    width: 500px;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 5px;
+    padding-left: 35px;
+    background-image: url(./img/car-solid.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 20px;
+    font-size: 16px;
+    border: 2px solid red;
+    border-radius: 10px;
+
+}
+
+#span {
+    width: 500px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkin {
+    width: 240px;
+    border: 2px solid red;
+    padding: 5px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: red;
+
+}
+
+#btn {
+    background-color: red;
+    color: white;
+    width: 300px;
+    height: 60px;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+ #btn:hover {
+    background-color: rgb(212, 7, 7);
+}
+
+.card-body button{
+    margin-top: 20px;
+    width: 170px;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+  
+   
+   
+
+}
+
+.spot{
+    background-color: red;
+    justify-content: space-around;
+  
+    
+
+
+
+}
+
+.hee{
+
+    text-align: center;
+    color: white;
+    
+    
+}
+.box{
+    background-color: white;
+    color: black;
+    width: 370px;
+    height: 400px;
+    border-radius: 20px;
+    justify-content: space-around !important;
+
+    
+
+}
+.box img {
+    width: 150px;
+    margin-top: 40px;
+  align-items: center;
+}
+
+
+
+.box p {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.colll img{
+    width: 300px;
+    height: 200px;
+    margin-top: 40px;
+}
+
+
+button{
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius:100px !important;
+    border: none;
+    color: white;
+    background-color: red;
+    align-items: center;
+  
+  
+}
+
+.section5 {
+    width: 95%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.feedback {
+    width: 600px;
+    height: 250px;
+    border: 1px solid rgb(221, 221, 221);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.userstar {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    /* justify-content: ; */
+}
+
+.user {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+.user img {
+    width: 70px;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.star {
+    margin-left: 20px;
+}
+
+.article {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.article span {
+    cursor: pointer;
+    color: red;
+}
+
+.article span:hover {
+    text-decoration: underline;
+}
+
+@media(max-width:450px) {
+    .section5 {
+
+        width: 400px;
+        height: 200px;
+        margin: auto;
+    }
+
+    .userstar {
+        margin: 0;
+        width: 350px;
+        margin: auto;
+    }
+
+    .feedback {
+        box-sizing: border-box;
+        padding: 10px;
+        height: 190px;
+        width: 400px;
+
+    }
+
+    .feedback h2 {
+        font-size: 14px;
+    }
+
+    .article {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+
+.section6 {
+    width: 95%;
+    margin: auto;
+    margin-top: 90px;
+    background-image: url(./images/part.jpg);
+    background-size: cover;
+    opacity: 0.8;
+    height: 600px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section6 h1 {
+    color:white;
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.section6 p {
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    margin-top: 20px;
+}
+
+.section6 button {
+    width: 250px;
+    height: 70px;
+    /* margin: auto; */
+    color: white;
+    background-color: red;
+    border-radius: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    margin-top: 40px;
+}
+
+.section6 button:hover {
+    background: rgb(201, 5, 5);
+}
+
+@media(max-width:450px) {
+    .section6 {
+        height: 420px;
+    }
+
+    .section6>h1 {
+        margin: 0;
+        font-size: 40px;
+    }
+}
+
+.email {
+    margin-top: 20px;
+
+}
+.container input {
+    width: 290px;
+    height: 60px;
+    border: none;
+    box-sizing: border-box;
+    border: 1px solid rgb(209, 209, 209);
+  
+   
+}
+.container button {
+    height: 60px;
+    width: 100px;
+    border: none;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: rgb(218, 3, 3);
+}
+
+@media(max-width:450px) {
+    .container {
+        margin: 0;
+        margin: auto;
+        /* height: 420px; */
+    }
+
+    .container>h1 {
+        margin: 0;
+        font-size: 40px;
+    }
+
+    .email input {
+        display: inline;
+        width: 300px;
+        padding-left: 20px;
+    }
+}
+
+
+#hr{
+    height: 5px;
+    background-color: red;
+}
+
+footer {
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.foot {
+    display: flex;
+    border-bottom: 2px solid gray;
+    height: 250px;
+}
+
+.details {
+    width: 350px;
+}
+
+.details h2 {
+    color: red;
+    font-size: 18px;
+}
+
+.details img {
+    width: 150px;
+}
+
+.details p {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.details p:hover {
+    text-decoration: underline;
+}
+
+.details a {
+    font-size: 30px;
+}
+
+.bar {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    font-size: 16px;
+    font-weight: 500;
+    color: RGB(100, 116, 139);
+    text-align: center;
+}
+
+#fix {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    position: fixed;
+    cursor: pointer;
+}
+
+@media(max-width:450px) {
+    .foot {
+        /* margin: 10px; */
+        display: flex;
+        flex-direction: column;
+        height: 680px;
+        padding: 10px;
+    }
+
+    .details {
+        margin-bottom: 10px;
+    }
+}
+
+
+.btttn{
+
+    width: 10px;
+    height: 70px;
+    /* margin: auto; */
+    color: white;
+    background-color: red;
+    border-radius: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    margin-top: 40px;
+
+
+}
